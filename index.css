@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.zalert-container{
+    position: absolute;
+    color: #8DB6CD;
+}
+.zalert-head{
+    width: 300px;
+    height: 24px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-bottom: none;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #1A1A1A;
+}
+.zalert-close-icon{
+    width: 16px;
+    height: 16px;
+    background-color: #CD0000; 
+    float: right;
+    margin: 4px;
+    border-radius: 2px;
+}
+.zalert-close-icon:after{
+    content: '+';
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 1px;
+    transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    display: block;
+    color: #1A1A1A;
+}
+.zalert-body{
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    background-color:#262626;
+}
+
+
+
+
+
+
+
+
+
+
+
+
